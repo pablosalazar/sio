@@ -1,0 +1,61 @@
+- corregir las fechas en fichas y programas que formato dejar???
+- Lograr que las acciones de cargar e importar aprendices tengas mas protagonismo
+- poder quitar la foto de un funcionario o estudiante
+- no dejar borrar el rol administrador
+- Que hacer? dejar borrar el supervisor si tiene contratos asociados?
+- para generar los documentos hay que verificar primero si todos los campos han sido llenados
+- Mejorar el formato al ingresar dinero
+- los contratos que no son vigentes siguen apareciendo como activos, que hacer cuando el tiempo de un contrato se vencio, o cuando en la novedad dice algo distinto a activo, ( tareas programadas )
+- tendria que cambiar el estado automatico o hacerlo manual
+- homogeneizar los mensajes de exito: poner o no el nombre del elemento creado o editado
+- El numero de ficha se repite en diferentes areas y programas?
+- urgente: actualizar la bd de sio en produccion por que se borran los funcionarios al borrar su usuario
+
+
+RESUELTOS
+
+en el breadcrumb puedo poner acciones al lado
+diferencias la novedad en el caso de cancelado ponerle un color rojo
+mejorar el manejo de imagenes
+desaparecer mensajes flash
+mirar el tema de cast para las fechas
+desactivar el ordenamiento para algunas columnas.
+cambiar policy_date por policy_expedition_date
+cambiar end_date_arl por arl_epedition_date
+aprovechar el metodo que hizo robin que esta en config.js para validar todas las fechas
+revisar por que la foto de alex no se ve
+revisar que en el editar cuando borro todos los estudios e intento guardar hay un error
+que hacer con los años de experiencia ( Si van )
+mensajes flash deben desaparecer despues de unos segundos
+cambiar el tipo de documento por la palabra larga ejemplo: cedula de ciudadania (No se hizo)
+mirar si en la migracion se pasan los datos de experiencia laboralmirar si en la migracion se pasan los datos de experiencia laboral
+revisar el borrar un funcionario y que el index se quede vacio, se amontonan los mensajes
+Corregir los contratos de ruben
+agregar icono al boton borrar y hommogenizar este boton en toda la aplicacion
+Probar si borro un funcionario se borrar su cuenta
+cancelar salir o regresar
+corregir que no se borre el contrato si se borra el supervisor
+Probar que pasa cuando borro un supervisor --- se borra el contrato?
+revisar una url relativa en los users.js
+mejora el escapeado de los atributos
+El contrato define el area al que pertenece un funcioanrio (si)
+Migro o no las areas, las optimizo o no, o dejo que se llene desde cero (deje que las llene aura elena)
+Mejorar el tema de las fechas
+Aura elena : exporta excel genera con contratos viejos.
+employees los nombres se guardan tal cual como los escribo.
+al borrar un usuario se borra el funcionario
+Estudiante tienes varias fichas ( se le deja la ficha de la ultimo ingreso)
+Urgente:: en aprendices la ficha en el select no se deja quitar o poner vacia
+revisar si las mayusculas y minusculas afectan al exportar un excel
+
+
+AUN NO 
+
+las tablas deben ser llamadas con ajax y paginadas, y el campo de busqueda dejar solo uno
+personalizar los mensajes de 404
+Revisar plugines que no se esten usando
+fijar el año automaticamente en los documentos generados.
+Hacer un historial de fichas por estudiantes
+tener encuenta el activar o activar un estudiante
+
+

@@ -1,0 +1,344 @@
+/* #ed5565 */
+
+body {
+    background-color: #00686a;
+}
+
+label {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+textarea {
+    resize: none;
+}
+
+.ibox-content .alert {
+    margin-bottom: 0;
+}
+
+.form-control.help-block {
+    margin-top: 0px;
+}
+
+.alert-danger {
+    color: #ed5565;
+    background-color: #ffeff0;
+    border-color: #ffdee1;
+}
+
+
+.has-error .input-group-addon {
+    color: #ed5565;
+    background-color: #f9edee;
+    border-color: #ed5565;
+}
+
+.form-control.error {
+    border: 1px solid #ed5565;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.has-error .control-label {
+    color: #ed5565;
+}
+
+.f_req {
+    color: #ed5565;
+}
+
+.has-error .error, .has-error .help-block {
+    color: #ed5565;
+}
+
+.help-block {
+    color: #c2c2c2;
+}
+
+label.error {
+    color: #ed5565;
+    display: inline-block;
+    margin-left: 0px; 
+}
+
+.help-block {
+    font-size: 12px;
+}
+
+.profile-element img {
+    height: 60px;
+}
+
+
+.nav-header {
+    padding: 20px 25px;
+    background: #0b7f7d;
+}
+
+
+.nav-header a {
+    color: #fff;
+}
+
+.profile-element .nav>li>a {
+    color: #fff;
+}
+
+.tab-contratos .ibox-content {
+    background: #f3f3f4bf;
+    box-shadow: 1px 1px 2px 1px rgba(219,218,219,0.5);
+    border-style: none;
+
+}
+
+.tabs-container .nav-tabs> li> a{
+    background-color: #e6e6e6;
+    color: #676a6c;
+}
+
+.tab-contratos .tab-pane {
+    box-shadow: 1px 1px 2px 1px rgba(219,218,219,0.5);
+}
+
+
+/* Estilos sidebar */
+
+.nav>li>a {
+    color: #fff;
+}
+
+.navbar-default  .metismenu>li>a:hover, .navbar-default .metismenu>li>a:focus {
+    background-color: #165758 !important;
+}
+
+.navbar-default .nav>li>a:focus {
+    background-color: #165758 !important;
+    outline: 0;
+}
+
+.nav-second-level li:last-child {
+     margin-bottom: 0; 
+}
+
+.navbar-default .nav>li.active {
+    border-left: 4px solid #9b5200;
+    background: #ec8008 !important;
+}
+
+.navbar-default .nav>li.active li.active {
+    background: #124142 !important;
+}
+
+.navbar-default .nav>li li>a:hover {
+    color: #fff;
+    background: #10393a !important;
+}
+
+.navbar-default .nav.nav-second-level>li.active {
+    border-left: 0;
+}
+
+.metismenu>li.active a:hover {
+    background: #ec8008 !important;
+}
+
+.nav.nav-second-level {
+    background: #165758;
+}
+
+
+.nav-header .text-muted {
+    color: #dfe4ed;
+}
+
+.avatar-form {
+    margin: 0 20px 40px 0;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    text-align: center;
+    float: left;
+    margin-right: 30px;
+}
+
+img.profile-landscape {
+    height: 100%;
+}
+
+.breadcrumbs li {
+    font-weight: 600;
+}
+
+.breadcrumbs .active {
+
+    color: #aaa;
+}
+
+.breadcrumbs h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+div.dataTables_length label {
+    float:none;
+}
+
+
+.ibox-title {
+
+    color: #0b7f7d;
+
+}
+a.btn-ibox {
+    color: #0b7f7d;
+    text-decoration: underline;
+}
+
+.btn {
+    outline: 0 !important;
+}
+
+img.profile-landscape {
+    height: 100%;
+}
+
+img.profile-portrait {
+    width: 100%;
+}
+
+
+.form-control, .single-line  {
+    color:#000;
+}
+
+
+#form-filters input.filter {
+    width: 230px;
+}
+
+#form-filters select.filter {
+    width: 150px;
+}
+
+
+div.dataTables_info {
+    margin-top: 10px;
+}
+
+.text-uppercase {
+    text-transform: text-uppercase;
+}
+
+
+.btn-space {
+    margin-right: 20px;
+}
+
+/* Estilo calendario */
+
+.datepicker  tfoot {
+    background:#00686a;
+    color: #fff;
+}
+
+.datepicker  tfoot th:hover {
+    background:#0b7f7d !important;
+}
+
+.datepicker table tr td span.active.active{
+    background:#ec8008;  
+    text-shadow:none; 
+}
+
+.datepicker table tr td span.active:hover.active, .datepicker table tr td.active.active {
+    background: #f8ac59;
+}
+
+.datepicker-switch {
+    background: #f3f3f4;
+}
+
+.select2-container--bootstrap .select2-selection {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #fff;
+    border: 1px solid #e5e6e7;
+     border-radius: 0px; 
+}
+
+.select2-container--bootstrap.select2-container--focus .select2-selection, .select2-container--bootstrap.select2-container--open .select2-selection {
+    border-color: #1ab394 !important;
+}
+
+.select2-container--bootstrap .select2-dropdown {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #1ab394 !important;
+}
+
+.select2-container--bootstrap.select2-container--focus .select2-selection {
+    border-color: #1ab394!important;
+}
+
+.select2-container--bootstrap.select2-container--focus .select2-selection, .select2-container--bootstrap.select2-container--open .select2-selection {
+    box-shadow: none !important;
+}
+
+.panel-heading .checkbox {
+    margin-top: 0;
+}
+
+.avatar-lg {
+    width: 200px;
+    height: 200px;
+}
+
+.avatar-frame {
+    width: 200px;
+    height: 230px;
+    border-radius: 0;
+}
+
+.avatar-table {
+    width: 50px;
+    height: 50px;
+    float: none;
+    margin: 0 auto;
+}
+
+.avatar-table img{
+    width: 100%;
+}
+
+.table>tbody>tr>td {
+    vertical-align: middle;
+}
+
+#my-dropzone .message {
+    font-family: "Segoe UI Light", "Arial", serif;
+    font-weight: 600;
+    color: #0087F7;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+}
+
+.dropzone {
+    border: 2px dashed #00686a;
+    background: white;
+    border-radius: 5px;
+    min-height: 300px;
+    padding: 10px 0;
+    vertical-align: baseline;
+}
+
+.dropzone.dz-clickable .dz-message span 
+{
+    font-size: 36px;
+}

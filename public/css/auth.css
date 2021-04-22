@@ -1,0 +1,28 @@
+.bg-login {
+    background: #fff;
+}
+
+form {
+    text-align: left;
+}
+
+form .form-control {
+    padding: 20px 12px;
+}
+
+form .btn {
+    padding: 10px 12px;
+    font-weight: bold;
+}
+
+.loginscreen.middle-box {
+    width: 360px;
+}
+
+.logo-name {
+    color: #18a689;
+    font-size: 180px;
+    font-weight: 800;
+    letter-spacing: -10px;
+    margin-bottom: 0;
+}
